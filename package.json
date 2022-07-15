@@ -1,0 +1,22 @@
+{
+  "name": "estudo",
+  "version": "1.0.0",
+  "description": "projeto object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natostraight/object.git"
+  },
+  "keywords": [
+    "natostraight"
+  ],
+  "author": "Alessandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natostraight/object/issues"
+  },
+  "homepage": "https://github.com/natostraight/object#readme"
+}
