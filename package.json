@@ -1,0 +1,27 @@
+{
+  "name": "estudo",
+  "version": "1.0.0",
+  "description": "//Criar o arquivo package.jon\r npm init",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastraight/object.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nastraight/object/issues"
+  },
+  "homepage": "https://github.com/nastraight/object#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
