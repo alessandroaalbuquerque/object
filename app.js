@@ -9,7 +9,7 @@ app.use(express.json());
 
 //Conexão com o DB
 mongoose
-  .connect("mongodb://localhost/celke", {})
+  .connect("mongodb://localhost/object", {})
   .then(() => {
     console.log("Conexão com o MongoDB realizada com sucesso!");
   })
@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 app.get("/artigo/:id", (req, res) => {
   console.log(req.params.id);
 
-  Artigo.findOne({ _id: req.params.id })
+  Artigo.findOne({ _id: req.params._id })
     .then((artigo) => {
       return res.json(artigo);
     })

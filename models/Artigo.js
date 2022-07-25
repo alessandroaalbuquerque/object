@@ -2,13 +2,17 @@ const mongoose = require("mongoose");
 
 const Artigo = new mongoose.Schema(
   {
-    titulo: {
+    nome: {
       type: String,
       required: true,
     },
-    conteudo: {
+    status: {
       type: String,
       required: true,
+    },
+    time: {
+      type: Date,
+      default: Date.now,
     },
   },
   {
